@@ -4,10 +4,10 @@
 
 Boilerplate for React applications:
 
-- create-react-app with typescript
+- create-react-app with typescript (https://reactjs.org/) (https://facebook.github.io/create-react-app/) (https://www.typescriptlang.org/)
 - pre-commit hook for prettier
-- material UI and CSS
-- storybook and addons
+- material UI and CSS (https://material-ui.com/)
+- storybook and addons (https://storybook.js.org/)
   - links
   - a11y
   - notes
@@ -15,7 +15,7 @@ Boilerplate for React applications:
   - storyshots
   - viewports
   - backgrounds
-- testing-library/react
+- testing-library/react (https://testing-library.com/docs/react-testing-library/intro)
 
 ## what would J. do?
 
