@@ -5,6 +5,7 @@
 Boilerplate for React applications:
 
 - create-react-app with typescript
+- pre-commit hook for prettier
 - material UI and CSS
 - storybook and addons
   - links
