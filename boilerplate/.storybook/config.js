@@ -21,7 +21,7 @@ addParameters({
 });
 
 function loadStories() {
-  require('../src/stories');
+  require('../src/stories/Sample.stories');
 }
 
 configure(loadStories, module);
