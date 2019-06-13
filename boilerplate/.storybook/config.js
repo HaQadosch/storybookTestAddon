@@ -3,6 +3,13 @@ import { withA11y } from '@storybook/addon-a11y';
 import { addDecorator } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 import { withInfo } from '@storybook/addon-info';
+import { themes } from '@storybook/theming';
+
+addParameters({
+  options: {
+    theme: themes.dark,
+  },
+});
 
 addDecorator(
   withInfo({
