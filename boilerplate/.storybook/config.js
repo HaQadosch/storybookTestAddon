@@ -2,7 +2,9 @@ import { configure, addParameters } from '@storybook/react';
 import { withA11y } from '@storybook/addon-a11y';
 import { addDecorator } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
+import { withInfo } from '@storybook/addon-info';
 
+addDecorator(withInfo);
 addDecorator(withKnobs);
 addDecorator(withA11y);
 addParameters({

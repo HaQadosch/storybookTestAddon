@@ -8,13 +8,14 @@ Boilerplate for React applications:
 - pre-commit hook for prettier
 - material UI and CSS (https://material-ui.com/)
 - storybook and addons (https://storybook.js.org/)
-  - links
   - a11y
-  - notes
+  - backgrounds
+  - info
   - knobs
+  - links
+  - notes
   - storyshots
   - viewports
-  - backgrounds
 - testing-library/react (https://testing-library.com/docs/react-testing-library/intro)
 
 ## what would J. do?
@@ -41,11 +42,12 @@ And then he would code like no one is watching.
 
 1. Write the unit tests and watch them fail: Red
 2. Write the component and one by one pass the tests: Green
-3. Write a story for the component.
+3. Clean a bit: Refactor
+4. Write a story for the component.
    1. If possible create some screen that use a mix of relevant components.
    2. Make sure the snapshots are all passing.
-4. Once a functional unit is done, add to the main App and commit to master.
-5. Rince and Repeat.
+5. Once a functional unit is done, add to the main App and commit to master.
+6. Rince and Repeat.
 
 ## Folder structure
 
