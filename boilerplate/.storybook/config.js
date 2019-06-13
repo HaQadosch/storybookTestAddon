@@ -7,6 +7,7 @@ import { withInfo } from '@storybook/addon-info';
 addDecorator(
   withInfo({
     inline: true,
+    // excludedPropTypes: ['Td']
   }),
 );
 addDecorator(withKnobs);
