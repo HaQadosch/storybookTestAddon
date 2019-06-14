@@ -2,9 +2,10 @@
   "name": "boilerplate",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "pretty-quick --staged && CI=true npm run test"
     }
   },
   "prettier": {
